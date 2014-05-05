@@ -1,0 +1,60 @@
+EESchema-DOCLIB  Version 2.0  Date: 04/05/2014 19:00:40
+#
+$CMP BI_LED
+D LED DOUBLE type Bicolore
+K LED
+$ENDCMP
+#
+$CMP BRIDGE
+D Pont de Diodes
+K Pont Diode
+$ENDCMP
+#
+$CMP DIODE
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+$CMP DPST
+D Interrupteur double
+K switch
+$ENDCMP
+#
+$CMP LED
+K LED
+$ENDCMP
+#
+$CMP NPN
+F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP PNP
+F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP PULSANTENC
+D Push Button
+K Switch
+$ENDCMP
+#
+$CMP PULSANTENO
+D Push Button
+K Switch
+$ENDCMP
+#
+$CMP RESISTOR
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP SPST
+D Interrupteur simple
+K switch
+$ENDCMP
+#
+$CMP ZENER
+D Diode zener
+K DEV DIODE
+$ENDCMP
+#
+#End Doc Library

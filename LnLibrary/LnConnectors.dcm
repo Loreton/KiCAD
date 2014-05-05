@@ -1,0 +1,53 @@
+EESchema-DOCLIB  Version 2.0  Date: 26/12/2012 20:33:46
+#
+$CMP CONN_01
+D 1 pin
+K CONN
+$ENDCMP
+#
+$CMP CONN_02
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_03
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_04
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_05
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_06
+D ymbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_07
+D Symbole general pour connexions
+K CONN
+$ENDCMP
+#
+$CMP CONN_08
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_09
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_10
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+#End Doc Library
