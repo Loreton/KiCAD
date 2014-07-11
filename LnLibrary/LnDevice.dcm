@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 04/05/2014 19:20:15
+EESchema-DOCLIB  Version 2.0  Date: 12/06/2014 20:50:25
 #
 $CMP BI_LED
 D LED DOUBLE type Bicolore
@@ -10,6 +10,14 @@ D Pont de Diodes
 K Pont Diode
 $ENDCMP
 #
+$CMP C
+D Condensateur non polarise
+$ENDCMP
+#
+$CMP CAPPOL
+D Condensatore elettrolitico
+$ENDCMP
+#
 $CMP DIODE
 D Diode simple
 K DEV DIODE
@@ -18,10 +26,6 @@ $ENDCMP
 $CMP DPST
 D Interrupteur double
 K switch
-$ENDCMP
-#
-$CMP LnLED
-K LED
 $ENDCMP
 #
 $CMP NPN

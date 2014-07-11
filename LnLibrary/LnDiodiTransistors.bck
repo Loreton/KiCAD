@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 04/05/2014 16:33:24
+EESchema-DOCLIB  Version 2.0  Date: 12/06/2014 21:53:22
 #
 $CMP 4N25
 D 4N25, DIP6, DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 2500V
@@ -8,6 +8,15 @@ $ENDCMP
 $CMP 4N26
 D 4N26, DIP6, DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 1500V
 K NPN DC Optocoupler Base Connected
+$ENDCMP
+#
+$CMP DIODE
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
+$CMP LED
+K LED
 $ENDCMP
 #
 #End Doc Library
