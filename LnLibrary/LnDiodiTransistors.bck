@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 12/06/2014 21:53:22
+EESchema-DOCLIB  Version 2.0  Date: 11/09/2014 07:40:41
 #
 $CMP 4N25
 D 4N25, DIP6, DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 2500V
@@ -10,6 +10,21 @@ D 4N26, DIP6, DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 1500V
 K NPN DC Optocoupler Base Connected
 $ENDCMP
 #
+$CMP BI_LED
+D LED DOUBLE type Bicolore
+K LED
+$ENDCMP
+#
+$CMP BRIDGE
+D Pont de Diodes
+K Pont Diode
+$ENDCMP
+#
+$CMP BRIDGELN
+D Diode simple
+K DEV DIODE
+$ENDCMP
+#
 $CMP DIODE
 D Diode simple
 K DEV DIODE
@@ -17,6 +32,26 @@ $ENDCMP
 #
 $CMP LED
 K LED
+$ENDCMP
+#
+$CMP LTV-817
+D LTV-817, DC Optocoupler, Vce 35V, CTR 50%, Ic 30mA
+K NPN DC Optocoupler
+$ENDCMP
+#
+$CMP NPN
+D LN - NPN
+F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP PNP
+D LN - PNP
+F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP ZENER
+D Diode zener
+K DEV DIODE
 $ENDCMP
 #
 #End Doc Library

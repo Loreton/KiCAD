@@ -1,15 +1,16 @@
-EESchema-DOCLIB  Version 2.0  Date: 04/05/2014 16:17:27
+EESchema-DOCLIB  Version 2.0  Date: 17/09/2014 07:51:07
 #
-$CMP CAPAPOL
-D Condensateur polarise
+$CMP C
+D Condensateur non polarise
 $ENDCMP
 #
-$CMP CapPol
-D Condensateur polarise
+$CMP CAPPOL
+D Condensatore elettrolitico
 $ENDCMP
 #
-$CMP CP
-D Condensateur polarise
+$CMP RES-BOX
+D Resistance
+K R DEV
 $ENDCMP
 #
 #End Doc Library

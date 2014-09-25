@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 12/06/2014 21:45:35
+EESchema-DOCLIB  Version 2.0  Date: 19/09/2014 07:50:26
 #
 $CMP CONN_01
 D 1 pin
@@ -46,7 +46,32 @@ K CONN
 $ENDCMP
 #
 $CMP CONN_10
-D Symbole general de connecteur
+D ymbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_10_Sep
+D Connettore separato da 10 Pin
+K CONN
+$ENDCMP
+#
+$CMP MAMMUTH02
+D ymbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP MAMMUTH03
+D ymbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP MAMMUTH10
+D ymbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP MAMMUTH10_5X2PIN
+D Mammuth 10 pins (5x2pins)
 K CONN
 $ENDCMP
 #

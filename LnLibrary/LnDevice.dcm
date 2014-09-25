@@ -1,26 +1,13 @@
-EESchema-DOCLIB  Version 2.0  Date: 12/06/2014 20:50:25
+EESchema-DOCLIB  Version 2.0  Date: 19/09/2014 08:00:48
 #
-$CMP BI_LED
-D LED DOUBLE type Bicolore
-K LED
+$CMP ALIMENTATORE
+D LN - Lampadina
+K Switch
 $ENDCMP
 #
-$CMP BRIDGE
-D Pont de Diodes
-K Pont Diode
-$ENDCMP
-#
-$CMP C
-D Condensateur non polarise
-$ENDCMP
-#
-$CMP CAPPOL
-D Condensatore elettrolitico
-$ENDCMP
-#
-$CMP DIODE
-D Diode simple
-K DEV DIODE
+$CMP DEVICE
+D LN - Lampadina
+K Switch
 $ENDCMP
 #
 $CMP DPST
@@ -28,12 +15,9 @@ D Interrupteur double
 K switch
 $ENDCMP
 #
-$CMP NPN
-F transistors/bipolar/*.*
-$ENDCMP
-#
-$CMP PNP
-F transistors/bipolar/*.*
+$CMP LAMP
+D LN - Lampadina
+K Switch
 $ENDCMP
 #
 $CMP PULSANTENC
@@ -46,19 +30,22 @@ D Push Button
 K Switch
 $ENDCMP
 #
-$CMP RESISTOR
-D Resistance
-K R DEV
+$CMP RELAY_1RT
+D LN - Relé ad uno scambio
+$ENDCMP
+#
+$CMP RELAY_2RT
+D LN - Relé a due scambi
+$ENDCMP
+#
+$CMP SIRENA
+D LN - Lampadina
+K Switch
 $ENDCMP
 #
 $CMP SPST
 D Interrupteur simple
 K switch
-$ENDCMP
-#
-$CMP ZENER
-D Diode zener
-K DEV DIODE
 $ENDCMP
 #
 #End Doc Library
