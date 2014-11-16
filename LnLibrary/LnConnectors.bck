@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 17/09/2014 08:31:10
+EESchema-DOCLIB  Version 2.0  Date: 19/09/2014 07:50:26
 #
 $CMP CONN_01
 D 1 pin
@@ -70,7 +70,7 @@ D ymbole general de connecteur
 K CONN
 $ENDCMP
 #
-$CMP Mammuth10_5x2pin
+$CMP MAMMUTH10_5X2PIN
 D Mammuth 10 pins (5x2pins)
 K CONN
 $ENDCMP
