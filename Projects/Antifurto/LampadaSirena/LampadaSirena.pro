@@ -1,4 +1,4 @@
-update=16/11/2014 19:18:37
+update=17/11/2014 08:53:20
 version=1
 last_client=eeschema
 [cvpcb]
@@ -52,7 +52,7 @@ NetFmtName=
 RptD_X=0
 RptD_Y=100
 RptLab=1
-LabSize=60
+LabSize=40
 [eeschema/libraries]
 LibName1=Ln_R-C-L
 LibName2=LnConnectors

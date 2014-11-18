@@ -40,7 +40,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date "18 nov 2014"
 Rev ""
@@ -395,7 +395,7 @@ Connection ~ 4800 4450
 Wire Wire Line
 	3350 4450 4250 4450
 Wire Wire Line
-	3500 4550 4250 4550
+	3200 4550 4250 4550
 Wire Wire Line
 	6800 4750 6800 4300
 Wire Wire Line
@@ -518,13 +518,27 @@ SirenaON
 Text GLabel 9650 5550 2    40   Output ~ 0
 +12Vcc
 $Sheet
-S 1250 1400 1400 700 
+S 1250 1900 1400 700 
 U 546AEC1D
 F0 "Lampada con sensore" 50
 F1 "Lampada.sch" 50
-F2 "220Vac" I L 1250 1550 60 
-F3 "220Vac" I L 1250 1750 60 
-F4 "LampOUT" O R 2650 1600 60 
-F5 "LampGND" U R 2650 1850 60 
+F2 "220Vac" I L 1250 2050 60 
+F3 "220Vac" I L 1250 2250 60 
+F4 "LampOUT" O R 2650 2100 60 
+F5 "LampGND" U R 2650 2350 60 
+$EndSheet
+Wire Wire Line
+	3350 4450 3350 2350
+Wire Wire Line
+	3350 2350 2650 2350
+Wire Wire Line
+	2650 2100 3200 2100
+Wire Wire Line
+	3200 2100 3200 4550
+$Sheet
+S 4000 1950 2150 800 
+U 546B1B28
+F0 "SirenaBox" 50
+F1 "Sirena.sch" 50
 $EndSheet
 $EndSCHEMATC
