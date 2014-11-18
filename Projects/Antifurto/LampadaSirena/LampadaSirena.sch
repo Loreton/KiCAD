@@ -40,7 +40,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date "18 nov 2014"
 Rev ""
@@ -528,11 +528,15 @@ F4 "LampOUT" O R 2650 2100 60
 F5 "LampGND" U R 2650 2350 60 
 $EndSheet
 Wire Wire Line
-	3350 4450 3350 2350
+	4000 2350 2650 2350
 Wire Wire Line
-	3350 2350 2650 2350
-Wire Wire Line
-	2650 2100 3200 2100
-Wire Wire Line
-	3200 2100 3200 4550
+	2650 2100 4000 2100
+$Sheet
+S 4000 1950 2150 800 
+U 546B1B28
+F0 "SirenaBox" 50
+F1 "Sirena.sch" 50
+F2 "LampOUT" I L 4000 2100 60 
+F3 "LampGND" U L 4000 2350 60 
+$EndSheet
 $EndSCHEMATC
