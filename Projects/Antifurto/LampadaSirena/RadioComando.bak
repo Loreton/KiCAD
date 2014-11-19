@@ -42,7 +42,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title ""
-Date "18 nov 2014"
+Date "19 nov 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -51,200 +51,302 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MAMMUTH10_5X2PIN MM?
-U 1 1 5468EF6A
-P 3550 2500
-F 0 "MM?" H 3565 2770 40  0000 C CNN
-F 1 "MAMMUTH10_5X2PIN" H 3570 2670 40  0000 C CNN
-F 2 "~" H 3575 2405 60  0000 C CNN
-F 3 "~" H 3575 2405 60  0000 C CNN
-	1    3550 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L LTV-817 IC?
-U 1 1 5468F18B
-P 1850 3000
-F 0 "IC?" H 1636 3179 40  0000 C CNN
-F 1 "LTV-817" H 1955 2815 40  0000 C CNN
-F 2 "DIP4" H 1680 2820 29  0000 C CNN
-F 3 "" H 1850 3000 60  0000 C CNN
-	1    1850 3000
+L LTV-817 IC201
+U 1 1 546D01A6
+P 1300 5250
+F 0 "IC201" H 1086 5429 40  0000 C CNN
+F 1 "LTV-817" H 1405 5065 40  0000 C CNN
+F 2 "DIP4" H 1130 5070 29  0000 C CNN
+F 3 "" H 1300 5250 60  0000 C CNN
+	1    1300 5250
 	-1   0    0    -1  
 $EndComp
 $Comp
-L LTV-817 IC?
-U 1 1 5468F197
-P 1850 2550
-F 0 "IC?" H 1636 2729 40  0000 C CNN
-F 1 "LTV-817" H 1955 2365 40  0000 C CNN
-F 2 "DIP4" H 1680 2370 29  0000 C CNN
-F 3 "" H 1850 2550 60  0000 C CNN
-	1    1850 2550
-	1    0    0    -1  
-$EndComp
-Text Notes 2350 2050 0    40   Italic 8
-White
-Text Notes 2300 2150 0    40   Italic 8
-Blue
-Text Notes 2350 2300 0    40   Italic 8
-Red
-Text Notes 2300 2250 0    40   Italic 8
-Green
-$Comp
-L MAMMUTH10_5X2PIN MM?
-U 2 1 5468F80A
-P 3550 2700
-F 0 "MM?" H 3565 2970 40  0001 C CNN
-F 1 "MAMMUTH10_5X2PIN" H 3570 2870 40  0001 C CNN
-F 2 "~" H 3575 2605 60  0000 C CNN
-F 3 "~" H 3575 2605 60  0000 C CNN
-	2    3550 2700
+L LTV-817 IC202
+U 1 1 546D01AC
+P 3050 5250
+F 0 "IC202" H 2836 5429 40  0000 C CNN
+F 1 "LTV-817" H 3155 5065 40  0000 C CNN
+F 2 "DIP4" H 2880 5070 29  0000 C CNN
+F 3 "" H 3050 5250 60  0000 C CNN
+	1    3050 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L MAMMUTH10_5X2PIN MM?
-U 3 1 5468F821
-P 3550 2900
-F 0 "MM?" H 3565 3170 40  0001 C CNN
-F 1 "MAMMUTH10_5X2PIN" H 3570 3070 40  0001 C CNN
-F 2 "~" H 3575 2805 60  0000 C CNN
-F 3 "~" H 3575 2805 60  0000 C CNN
-	3    3550 2900
+L R R201
+U 1 1 546D01B2
+P 2150 4700
+F 0 "R201" H 2200 4500 40  0000 C CNN
+F 1 "1K" V 2157 4701 40  0000 C CNN
+F 2 "~" V 2080 4700 30  0000 C CNN
+F 3 "~" H 2150 4700 30  0000 C CNN
+	1    2150 4700
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
-U 1 1 5468F9CE
-P 4100 2900
-F 0 "R?" H 4150 2700 40  0000 C CNN
-F 1 "2K7" V 4107 2901 40  0000 C CNN
-F 2 "~" V 4030 2900 30  0000 C CNN
-F 3 "~" H 4100 2900 30  0000 C CNN
-	1    4100 2900
+L DUAL_SWITCH SW202
+U 1 1 546D01B8
+P 2150 5350
+F 0 "SW202" H 2200 5250 50  0000 C CNN
+F 1 "DUAL_SWITCH" H 2000 5200 50  0001 C CNN
+F 2 "~" H 2150 5350 60  0000 C CNN
+F 3 "~" H 2150 5350 60  0000 C CNN
+	1    2150 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 5350 2100 5350
+$Comp
+L GND #PWR01
+U 1 1 546D01C6
+P 3500 5600
+F 0 "#PWR01" H 3500 5600 30  0001 C CNN
+F 1 "GND" H 3500 5530 30  0001 C CNN
+F 2 "" H 3500 5600 60  0000 C CNN
+F 3 "" H 3500 5600 60  0000 C CNN
+	1    3500 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4950 2150 5150
+Wire Wire Line
+	2150 5150 1650 5150
+$Comp
+L +12V #PWR02
+U 1 1 546D01CE
+P 2150 4350
+F 0 "#PWR02" H 2150 4300 20  0001 C CNN
+F 1 "+12V" H 2150 4450 30  0000 C CNN
+F 2 "" H 2150 4350 60  0000 C CNN
+F 3 "" H 2150 4350 60  0000 C CNN
+	1    2150 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4350 2150 4450
+$Comp
+L GND #PWR03
+U 1 1 546D01D7
+P 2450 5600
+F 0 "#PWR03" H 2450 5600 30  0001 C CNN
+F 1 "GND" H 2450 5530 30  0001 C CNN
+F 2 "" H 2450 5600 60  0000 C CNN
+F 3 "" H 2450 5600 60  0000 C CNN
+	1    2450 5600
+	1    0    0    -1  
+$EndComp
+Text HLabel 4150 5000 2    40   Output ~ 0
+Siren-ON
+$Comp
+L R R202
+U 1 1 546D01F0
+P 3500 4700
+F 0 "R202" H 3550 4500 40  0000 C CNN
+F 1 "1K" V 3507 4701 40  0000 C CNN
+F 2 "~" V 3430 4700 30  0000 C CNN
+F 3 "~" H 3500 4700 30  0000 C CNN
+	1    3500 4700
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
-U 1 1 5468F9DD
-P 3950 2900
-F 0 "R?" H 4000 2700 40  0000 C CNN
-F 1 "1K" V 3957 2901 40  0000 C CNN
-F 2 "~" V 3880 2900 30  0000 C CNN
-F 3 "~" H 3950 2900 30  0000 C CNN
-	1    3950 2900
+L +12V #PWR04
+U 1 1 546D01F6
+P 3500 4350
+F 0 "#PWR04" H 3500 4300 20  0001 C CNN
+F 1 "+12V" H 3500 4450 30  0000 C CNN
+F 2 "" H 3500 4350 60  0000 C CNN
+F 3 "" H 3500 4350 60  0000 C CNN
+	1    3500 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 3100 2450 3100
+	3500 4350 3500 4450
 Wire Wire Line
-	2350 2900 2200 2900
+	3500 4950 3500 5150
 Wire Wire Line
-	2350 2650 2350 2900
+	3500 5150 3400 5150
 Wire Wire Line
-	2200 2650 2200 2550
-Text GLabel 5050 2850 2    40   Input ~ 0
+	2450 5000 4150 5000
+Connection ~ 3500 5000
+Wire Wire Line
+	2450 5000 2450 5300
+Wire Wire Line
+	2450 5300 2300 5300
+Wire Wire Line
+	2300 5400 2450 5400
+Wire Wire Line
+	2450 5400 2450 5600
+Wire Wire Line
+	3400 5350 3500 5350
+Wire Wire Line
+	3500 5350 3500 5600
+$Comp
+L MAMMUTH10_5X2PIN MM201
+U 1 1 546D03BE
+P 6150 4900
+F 0 "MM201" H 6165 5170 40  0000 C CNN
+F 1 "MAMMUTH10_5X2PIN" H 6170 5070 40  0000 C CNN
+F 2 "~" H 6175 4805 60  0000 C CNN
+F 3 "~" H 6175 4805 60  0000 C CNN
+	1    6150 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAMMUTH10_5X2PIN MM201
+U 2 1 546D03C4
+P 6150 5100
+F 0 "MM201" H 6165 5370 40  0001 C CNN
+F 1 "MAMMUTH10_5X2PIN" H 6170 5270 40  0001 C CNN
+F 2 "~" H 6175 5005 60  0000 C CNN
+F 3 "~" H 6175 5005 60  0000 C CNN
+	2    6150 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAMMUTH10_5X2PIN MM201
+U 3 1 546D03CA
+P 6150 5300
+F 0 "MM201" H 6165 5570 40  0001 C CNN
+F 1 "MAMMUTH10_5X2PIN" H 6170 5470 40  0001 C CNN
+F 2 "~" H 6175 5205 60  0000 C CNN
+F 3 "~" H 6175 5205 60  0000 C CNN
+	3    6150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R203
+U 1 1 546D03D0
+P 6550 5350
+F 0 "R203" H 6550 5150 40  0000 C CNN
+F 1 "2K7" V 6557 5351 40  0000 C CNN
+F 2 "~" V 6480 5350 30  0000 C CNN
+F 3 "~" H 6550 5350 30  0000 C CNN
+	1    6550 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R204
+U 1 1 546D03D6
+P 6700 5350
+F 0 "R204" H 6800 5150 40  0000 C CNN
+F 1 "1K" V 6707 5351 40  0000 C CNN
+F 2 "~" V 6630 5350 30  0000 C CNN
+F 3 "~" H 6700 5350 30  0000 C CNN
+	1    6700 5350
+	1    0    0    -1  
+$EndComp
+Text GLabel 7650 5350 2    40   Input ~ 0
 +12Vcc
-Wire Wire Line
-	3800 3150 4100 3150
-Wire Wire Line
-	3950 2650 3700 2650
-Wire Wire Line
-	4100 2650 4100 2450
-Wire Wire Line
-	4100 2450 3700 2450
-Text GLabel 5050 2950 2    40   Input ~ 0
+Text GLabel 7650 5250 2    40   Input ~ 0
 GND
 Wire Notes Line
-	4950 2400 4950 3150
+	7550 4800 7550 5550
 Wire Notes Line
-	4950 3150 5500 3150
+	7550 5550 8100 5550
 Wire Notes Line
-	5500 3150 5500 2400
+	8100 5550 8100 4800
 Wire Notes Line
-	5500 2400 4950 2400
+	8100 4800 7550 4800
 $Comp
-L DUAL_SWITCH SW?
-U 1 1 54690A5D
-P 5300 2600
-F 0 "SW?" H 5300 2550 50  0000 C CNN
-F 1 "DUAL_SWITCH" H 5150 2450 50  0001 C CNN
-F 2 "~" H 5300 2600 60  0000 C CNN
-F 3 "~" H 5300 2600 60  0000 C CNN
-	1    5300 2600
-	-1   0    0    -1  
+L DUAL_SWITCH SW201
+U 1 1 546D03E6
+P 7750 4950
+F 0 "SW201" H 7750 4900 50  0000 C CNN
+F 1 "DUAL_SWITCH" H 7600 4800 50  0001 C CNN
+F 2 "~" H 7750 4950 60  0000 C CNN
+F 3 "~" H 7750 4950 60  0000 C CNN
+	1    7750 4950
+	1    0    0    1   
 $EndComp
-Wire Wire Line
-	4500 2650 5150 2650
-Wire Wire Line
-	3700 2550 5150 2550
-Wire Wire Line
-	5350 2600 5400 2600
-Wire Wire Line
-	5400 2600 5400 2750
-Wire Wire Line
-	5400 2750 4600 2750
-Wire Wire Line
-	3700 2850 5050 2850
-Wire Wire Line
-	3800 2850 3800 3150
-Connection ~ 3950 3150
-Connection ~ 3800 2850
-Wire Wire Line
-	3700 2950 5050 2950
-Wire Wire Line
-	4600 2750 4600 2950
-Connection ~ 4600 2950
-Wire Wire Line
-	3700 2750 3800 2750
-Wire Wire Line
-	3800 2750 3800 2700
-Wire Wire Line
-	3800 2700 4500 2700
-Wire Wire Line
-	4500 2700 4500 2650
-Text HLabel 3200 2450 0    40   Output ~ 0
+Text HLabel 5300 4850 0    40   Output ~ 0
 LampON+
-Text HLabel 3200 2550 0    40   UnSpc ~ 0
+Text HLabel 5300 4950 0    40   UnSpc ~ 0
 LampON-
-Text HLabel 3200 2750 0    40   Output ~ 0
+Text HLabel 5300 5050 0    40   Output ~ 0
 LampOUT+
-Text HLabel 3200 2650 0    40   UnSpc ~ 0
+Text HLabel 5300 5150 0    40   UnSpc ~ 0
+LampOUT-
+Text HLabel 5300 5350 0    40   Input ~ 0
++12Vcc
+Text HLabel 5300 5250 0    40   UnSpc ~ 0
+GND
+Text Notes 7050 4350 0    40   ~ 0
+RadioComando con 4 relay di output.\nIl primo relay (A sul telecomando) è usato \nper fare accendere la lampada manualmente. \nLo switch serve anche a disabilitare l'output di LampOUT+\nche potrebbe innescare l'antifurto e quindi la sirena. \nInfatti elimina il GND dall'emettitore del OC1 .
+Text Label 1800 5150 0    40   ~ 0
+LampOn+
+Text Label 1800 5350 0    40   ~ 0
+LampOn-
+Text Label 3700 5000 0    40   ~ 0
+LampOUT+
+Text Label 3500 5500 0    40   ~ 0
 LampOUT-
 Wire Wire Line
-	2450 3100 2450 2750
+	6300 5350 6400 5350
 Wire Wire Line
-	3200 2450 3400 2450
+	6400 5350 6400 5700
 Wire Wire Line
-	3200 2550 3400 2550
+	6400 5700 7150 5700
 Wire Wire Line
-	3200 2650 3400 2650
+	6700 5700 6700 5600
 Wire Wire Line
-	3200 2750 3400 2750
+	6550 5700 6550 5600
+Connection ~ 6550 5700
 Wire Wire Line
-	2200 2550 2750 2550
+	6300 4850 6700 4850
 Wire Wire Line
-	2200 2450 2750 2450
+	6700 4850 6700 5100
 Wire Wire Line
-	2350 2650 2750 2650
+	6300 5050 7950 5050
 Wire Wire Line
-	2450 2750 2750 2750
-NoConn ~ 1500 2450
-NoConn ~ 1500 2650
-NoConn ~ 1500 2900
-NoConn ~ 1500 3100
-NoConn ~ 2200 2450
-NoConn ~ 2200 2650
-NoConn ~ 2200 2900
-NoConn ~ 2200 3100
-Text HLabel 3200 2850 0    40   Input ~ 0
-+12Vcc
-Text HLabel 3200 2950 0    40   UnSpc ~ 0
-GND
+	6550 5050 6550 5100
 Wire Wire Line
-	3200 2850 3400 2850
+	6300 5250 7650 5250
 Wire Wire Line
-	3200 2950 3400 2950
-Text Notes 4450 1950 0    40   ~ 0
-RadioComando con 4 relay di output.\nIl primo relay (A sul telecomando) è usato \nper fare accendere la lampada manualmente. \nLo switch serve anche a disabilitare l'output di LampOUT+\nche potrebbe innescare l'antifurto e quindi la sirena. \nInfatti elimina il GND dall'emettitore del OC1 .
+	6300 4950 7700 4950
+Wire Wire Line
+	7950 5050 7950 5000
+Wire Wire Line
+	7950 5000 7900 5000
+Connection ~ 6550 5050
+Wire Wire Line
+	7900 4900 8000 4900
+Wire Wire Line
+	8000 4900 8000 5150
+Wire Wire Line
+	5300 4850 6000 4850
+Wire Wire Line
+	5300 4950 6000 4950
+Wire Wire Line
+	5300 5050 6000 5050
+Wire Wire Line
+	5300 5150 6000 5150
+Wire Wire Line
+	5300 5250 6000 5250
+Wire Wire Line
+	5300 5350 6000 5350
+Wire Notes Line
+	6150 4250 6150 5950
+Wire Notes Line
+	6150 5950 8950 5950
+Wire Notes Line
+	8950 5950 8950 4250
+Wire Notes Line
+	8950 4250 6150 4250
+Text Notes 1300 6100 0    40   ~ 0
+A riposo se il sensore della lampada rileva un movimento \nLo Switch serve per accendere la lampada via RadioComando.\nAcccendendo la lampada manualmente dobbiamo evitare \ndi far partire la sirena.\nQuesta è la ragione del circuito un pò più complesso.\n\nper fare accendere la lampada manualmente. \nLo switch serve anche a disabilitare l'output di LampOUT+\nche potrebbe innescare l'antifurto e quindi la sirena. \nInfatti elimina il GND dall'emettitore del OC1 .
+Connection ~ 6400 5250
+Wire Wire Line
+	7150 5700 7150 5350
+Wire Wire Line
+	7150 5350 7650 5350
+Connection ~ 6700 5700
+Wire Wire Line
+	6300 5150 6400 5150
+Wire Wire Line
+	6400 5150 6400 5250
+Wire Wire Line
+	8000 5150 7500 5150
+Wire Wire Line
+	7500 5150 7500 5250
+Connection ~ 7500 5250
 $EndSCHEMATC

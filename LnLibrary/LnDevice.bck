@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 16/11/2014 20:06:13
+EESchema-DOCLIB  Version 2.0  Date: 18/11/2014 08:29:07
 #
 $CMP ALIMENTATORE
 D LN - Lampadina
@@ -15,7 +15,7 @@ D Interrupteur double
 K switch
 $ENDCMP
 #
-$CMP Dual_Switch
+$CMP DUAL_SWITCH
 D LN - Switch
 $ENDCMP
 #
