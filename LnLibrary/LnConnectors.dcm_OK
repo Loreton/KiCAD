@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 25/11/2014 08:00:56
+EESchema-DOCLIB  Version 2.0  Date: 20/11/2014 08:49:52
 #
 $CMP CONN_01
 D 1 pin
@@ -50,78 +50,68 @@ D ymbole general de connecteur
 K CONN
 $ENDCMP
 #
-$CMP MAMMUTH_01
+$CMP CONN_10_Sep
+D Connettore separato da 10 Pin
+K CONN
+$ENDCMP
+#
+$CMP MAMMUTH10
 D ymbole general de connecteur
 K CONN
 $ENDCMP
 #
-$CMP MAMMUTH_02
+$CMP MAMMUTH10_5X2PIN
+D Mammuth 10 pins (5x2pins)
+K CONN
+$ENDCMP
+#
+$CMP Mammuth_01
 D ymbole general de connecteur
 K CONN
 $ENDCMP
 #
-$CMP Mammuth_02a
+$CMP Mammuth_02
 D ymbole general de connecteur
 K CONN
 $ENDCMP
 #
-$CMP MAMMUTH_03
+$CMP Mammuth_03
 D ymbole general de connecteur
 K CONN
 $ENDCMP
 #
-$CMP MAMMUTH_04
+$CMP Mammuth_04
 D ymbole general de connecteur
 K CONN
 $ENDCMP
 #
-$CMP MAMMUTH_05
+$CMP Mammuth_05
 D ymbole general de connecteur
 K CONN
 $ENDCMP
 #
-$CMP MAMMUTH_06
+$CMP Mammuth_06
 D ymbole general de connecteur
 K CONN
 $ENDCMP
 #
-$CMP MAMMUTH_06A
+$CMP Mammuth_07
 D ymbole general de connecteur
 K CONN
 $ENDCMP
 #
-$CMP MAMMUTH_07
+$CMP Mammuth_08
 D ymbole general de connecteur
 K CONN
 $ENDCMP
 #
-$CMP MAMMUTH_08
+$CMP Mammuth_09
 D ymbole general de connecteur
 K CONN
 $ENDCMP
 #
-$CMP MAMMUTH_08A
-D ymbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP MAMMUTH_09
-D ymbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP MAMMUTH_10_2X5
-D ymbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP MAMMUTH_10A
-D ymbole general de connecteur
-K CONN
-$ENDCMP
-#
-$CMP Mammuth_12a
-D ymbole general de connecteur
+$CMP Mammuth_10_2x5
+D LN - Mammuth 10 pins (5x2pins)
 K CONN
 $ENDCMP
 #

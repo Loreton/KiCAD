@@ -42,7 +42,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
 Title ""
-Date "19 nov 2014"
+Date "26 nov 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -188,17 +188,6 @@ F 3 "" H 3450 2050 60  0000 C CNN
 	1    3450 2050
 	1    0    0    -1  
 $EndComp
-$Comp
-L +8V #PWR011
-U 1 1 546B1C6D
-P 3450 1700
-F 0 "#PWR011" H 3450 1670 20  0001 C CNN
-F 1 "+8V" H 3450 1810 30  0000 C CNN
-F 2 "" H 3450 1700 60  0000 C CNN
-F 3 "" H 3450 1700 60  0000 C CNN
-	1    3450 1700
-	1    0    0    -1  
-$EndComp
 Text Label 2500 5300 0    40   Italic 8
 GO-
 Text Notes 3950 2450 0    40   Italic 8
@@ -208,10 +197,10 @@ Text Label 2350 6050 0    40   ~ 0
 Text Label 2450 5000 0    40   Italic 8
 +12Vcc
 $Comp
-L CONN_04 P403
+L CONN_04 P401
 U 1 1 546B1C79
 P 4750 2500
-F 0 "P403" H 4750 2850 60  0000 C CNN
+F 0 "P401" H 4650 2950 60  0000 C CNN
 F 1 "CONN_04" H 4750 2350 60  0001 C CNN
 F 2 "~" H 4750 2500 60  0000 C CNN
 F 3 "~" H 4750 2500 60  0000 C CNN
@@ -219,36 +208,36 @@ F 3 "~" H 4750 2500 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CONN_04 P401
+L CONN_04 J402
 U 1 1 546B1C85
-P 7450 2250
-F 0 "P401" H 7450 2600 60  0000 C CNN
-F 1 "CONN_04" H 7450 2100 60  0001 C CNN
-F 2 "~" H 7450 2250 60  0000 C CNN
-F 3 "~" H 7450 2250 60  0000 C CNN
-	1    7450 2250
+P 7450 2500
+F 0 "J402" H 7350 2950 60  0000 C CNN
+F 1 "CONN_04" H 7450 2350 60  0001 C CNN
+F 2 "~" H 7450 2500 60  0000 C CNN
+F 3 "~" H 7450 2500 60  0000 C CNN
+	1    7450 2500
 	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_04 P402
 U 1 1 546B1C8B
-P 7600 2250
-F 0 "P402" H 7600 2600 60  0000 C CNN
-F 1 "CONN_04" H 7600 2100 60  0001 C CNN
-F 2 "~" H 7600 2250 60  0000 C CNN
-F 3 "~" H 7600 2250 60  0000 C CNN
-	1    7600 2250
+P 7550 2500
+F 0 "P402" H 7550 2850 60  0000 C CNN
+F 1 "CONN_04" H 7550 2350 60  0001 C CNN
+F 2 "~" H 7550 2500 60  0000 C CNN
+F 3 "~" H 7550 2500 60  0000 C CNN
+	1    7550 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L MAMMUTH10 MM401
 U 1 1 546B1C91
-P 8700 4550
-F 0 "MM401" H 8700 4900 40  0000 C CNN
-F 1 "MAMMUTH10" H 8705 4800 40  0000 C CNN
-F 2 "~" H 8700 4550 60  0000 C CNN
-F 3 "~" H 8700 4550 60  0000 C CNN
-	1    8700 4550
+P 8700 4850
+F 0 "MM401" H 8700 5550 40  0000 C CNN
+F 1 "MAMMUTH10" H 8750 5450 40  0000 C CNN
+F 2 "~" H 8700 4850 60  0000 C CNN
+F 3 "~" H 8700 4850 60  0000 C CNN
+	1    8700 4850
 	1    0    0    -1  
 $EndComp
 Text Notes 6900 1400 0    40   Italic 8
@@ -259,13 +248,13 @@ Text Notes 6850 2750 0    40   Italic 8
 Green
 Text Notes 6850 2550 0    40   Italic 8
 Red
-Text Notes 7850 2000 0    40   Italic 8
+Text Notes 7850 2250 0    40   Italic 8
 White
-Text Notes 7850 2100 0    40   Italic 8
+Text Notes 7850 2350 0    40   Italic 8
 Blue
-Text Notes 7850 2200 0    40   Italic 8
+Text Notes 7850 2450 0    40   Italic 8
 Red
-Text Notes 7850 2300 0    40   Italic 8
+Text Notes 7850 2550 0    40   Italic 8
 Green
 Text Notes 8050 4800 0    40   Italic 8
 Green/Black
@@ -291,7 +280,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 1400 6100 1400
 Wire Wire Line
-	5050 2550 6100 2550
+	5000 2550 6100 2550
 Wire Wire Line
 	5500 2300 5500 2550
 Wire Wire Line
@@ -299,15 +288,11 @@ Wire Wire Line
 Wire Wire Line
 	5150 1400 5150 2250
 Wire Wire Line
-	5150 2250 5050 2250
+	5150 2250 5000 2250
 Wire Wire Line
 	5150 2750 6100 2750
 Wire Wire Line
 	5150 2350 5150 2750
-Wire Wire Line
-	3450 2050 3450 1900
-Wire Wire Line
-	3450 1700 3450 1800
 Wire Wire Line
 	3300 1800 4500 1800
 Wire Wire Line
@@ -321,7 +306,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 2350 4600 2350
 Wire Wire Line
-	5050 2350 5150 2350
+	5000 2350 5150 2350
 Wire Wire Line
 	5700 1950 5500 1950
 Wire Wire Line
@@ -332,33 +317,31 @@ Connection ~ 6000 2750
 Wire Wire Line
 	6800 2750 7150 2750
 Wire Wire Line
-	7100 2200 7300 2200
+	7100 2450 7300 2450
 Wire Wire Line
 	6800 2550 7100 2550
 Wire Wire Line
-	7100 1600 7100 2100
+	7100 1600 7100 2350
 Wire Wire Line
-	7100 2100 7300 2100
+	7100 2350 7300 2350
 Wire Wire Line
 	6800 1400 7150 1400
 Wire Wire Line
-	7150 1400 7150 2000
+	7150 1400 7150 2250
 Wire Wire Line
-	7150 2000 7300 2000
+	7150 2250 7300 2250
 Wire Wire Line
-	7100 2550 7100 2200
+	7100 2550 7100 2450
 Connection ~ 5500 2550
 Wire Wire Line
-	5050 2450 5150 2450
+	5000 2450 5150 2450
 Connection ~ 5150 2450
 Wire Wire Line
 	3450 2450 4600 2450
 Wire Wire Line
-	3450 2550 4600 2550
+	7150 2750 7150 2550
 Wire Wire Line
-	7150 2750 7150 2300
-Wire Wire Line
-	7150 2300 7300 2300
+	7150 2550 7300 2550
 Wire Wire Line
 	8100 4700 8550 4700
 Wire Wire Line
@@ -370,38 +353,36 @@ Wire Wire Line
 Wire Wire Line
 	7100 1600 6800 1600
 Wire Wire Line
-	7750 2000 8250 2000
+	7700 2250 8250 2250
 Wire Wire Line
-	8250 2000 8250 4400
+	8250 2250 8250 4400
 Wire Wire Line
-	7750 2100 8200 2100
+	7700 2350 8200 2350
 Wire Wire Line
-	8200 2100 8200 4500
+	8200 2350 8200 4500
 Wire Wire Line
-	7750 2200 8150 2200
+	7700 2450 8150 2450
 Wire Wire Line
-	8150 2200 8150 4600
+	8150 2450 8150 4600
 Wire Wire Line
-	7750 2300 8100 2300
+	7700 2550 8100 2550
 Wire Wire Line
-	8100 2300 8100 4700
+	8100 2550 8100 4700
 Wire Wire Line
-	8800 5300 10300 5300
-Wire Wire Line
-	8550 5100 8450 5100
+	8900 5300 10300 5300
 Wire Wire Line
 	8450 5100 8450 5500
 Wire Wire Line
 	8450 5200 8550 5200
 Connection ~ 8450 5200
 Wire Wire Line
-	8800 4400 10200 4400
+	8900 4400 10300 4400
 Wire Wire Line
-	8800 4600 10200 4600
+	8900 4600 10300 4600
 Wire Wire Line
-	8800 4500 10200 4500
+	8900 4500 10300 4500
 Wire Wire Line
-	8800 4700 10200 4700
+	8900 4700 10300 4700
 Text Notes 9350 4400 0    40   Italic 8
 White
 Text Notes 9350 4500 0    40   Italic 8
@@ -415,18 +396,14 @@ Gray
 Text Notes 9200 5100 0    40   Italic 8
 Black 0.5 mm + shield
 Wire Wire Line
-	8800 4800 10200 4800
+	8900 4800 10300 4800
 Wire Wire Line
-	8800 4900 10900 4900
-Text HLabel 3450 2550 0    40   Input ~ 0
-LampOUT
-Text HLabel 3450 2450 0    40   UnSpc ~ 0
-LampGND
+	8900 4900 10300 4900
 $Comp
-L GNDA #PWR012
+L GNDA #PWR011
 U 1 1 546B2505
 P 4450 2650
-F 0 "#PWR012" H 4450 2650 40  0001 C CNN
+F 0 "#PWR011" H 4450 2650 40  0001 C CNN
 F 1 "GNDA" H 4450 2580 40  0000 C CNN
 F 2 "" H 4450 2650 60  0000 C CNN
 F 3 "" H 4450 2650 60  0000 C CNN
@@ -436,24 +413,16 @@ $EndComp
 Wire Wire Line
 	4450 2450 4450 2650
 Connection ~ 4450 2450
-Text GLabel 10350 5100 2    40   Input Italic 8
-GND
-Text GLabel 10300 5300 2    40   Input Italic 8
-+Batt
-Text HLabel 10200 4400 2    40   Output ~ 0
-LampOUT-
-Text HLabel 10200 4500 2    40   UnSpc ~ 0
-LampOUT+
-Text HLabel 10200 4600 2    40   Input ~ 0
-LampON+
-Text HLabel 10200 4700 2    40   UnSpc ~ 0
-LampON-
-Text GLabel 10200 4800 2    40   Input ~ 0
-SirenaON
-Text GLabel 10250 5000 2    40   Output ~ 0
-+12Vcc - util
+Text HLabel 10300 4500 2    40   UnSpc ~ 0
+-LampOUT
+Text HLabel 10300 4400 2    40   Output ~ 0
++LampOUT
+Text HLabel 10300 4600 2    40   Input ~ 0
++LampON
+Text HLabel 10300 4700 2    40   UnSpc ~ 0
+-LampON
 Wire Wire Line
-	8800 5100 10350 5100
+	8900 5100 10300 5100
 Text Notes 9000 5000 0    40   Italic 8
 giallo-arancio-rosa-marrone
 $Comp
@@ -467,14 +436,10 @@ F 3 "~" H 3750 7270 60  0000 C CNN
 	1    3750 7250
 	-1   0    0    -1  
 $EndComp
-Text GLabel 9950 5850 2    40   Input ~ 0
-+12Vcc External
 Wire Wire Line
-	10250 5000 8800 5000
-Text GLabel 10300 5200 2    40   Input Italic 8
--Batt
+	10300 5000 8900 5000
 Wire Wire Line
-	8800 5200 10300 5200
+	8900 5200 10300 5200
 Wire Wire Line
 	8550 4800 2750 4800
 Wire Wire Line
@@ -488,26 +453,26 @@ Wire Wire Line
 Wire Wire Line
 	2850 5500 2250 5500
 $Comp
-L CONN_04 P404
+L CONN_04 J401
 U 1 1 546B1C7F
-P 4900 2500
-F 0 "P404" H 4900 2850 60  0000 C CNN
-F 1 "CONN_04" H 4900 2350 60  0001 C CNN
-F 2 "~" H 4900 2500 60  0000 C CNN
-F 3 "~" H 4900 2500 60  0000 C CNN
-	1    4900 2500
+P 4850 2500
+F 0 "J401" H 4850 2850 60  0000 C CNN
+F 1 "CONN_04" H 4850 2350 60  0001 C CNN
+F 2 "~" H 4850 2500 60  0000 C CNN
+F 3 "~" H 4850 2500 60  0000 C CNN
+	1    4850 2500
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
-	2750 2500 2850 2500
+	2600 2500 2700 2500
 Wire Bus Line
-	2850 2500 2850 2650
+	2700 2500 2700 2650
 Wire Bus Line
-	2850 2650 2950 2650
+	2700 2650 2800 2650
 Wire Bus Line
-	2950 2650 2950 2500
+	2800 2650 2800 2500
 Wire Bus Line
-	2950 2500 3050 2500
+	2800 2500 2900 2500
 Text Notes 3950 1900 0    40   Italic 8
 Black (+Shield)
 Text Notes 3950 1800 0    40   Italic 8
@@ -599,30 +564,6 @@ Text Notes 8050 4900 0    40   Italic 8
 Gray
 Text Notes 9350 4900 0    40   Italic 8
 Black
-$Comp
-L PULSANTENO SW401
-U 1 1 546CF32F
-P 10950 4950
-F 0 "SW401" V 11100 5050 50  0000 C CNN
-F 1 "PWR-Switch" V 10850 4800 40  0000 C CNN
-F 2 "~" H 10950 4950 60  0000 C CNN
-F 3 "~" H 10950 4950 60  0000 C CNN
-	1    10950 4950
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR013
-U 1 1 546CF3CB
-P 10900 5200
-F 0 "#PWR013" H 10900 5200 30  0001 C CNN
-F 1 "GND" H 10900 5130 30  0001 C CNN
-F 2 "" H 10900 5200 60  0000 C CNN
-F 3 "" H 10900 5200 60  0000 C CNN
-	1    10900 5200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10900 5000 10900 5200
 Wire Notes Line
 	3150 6500 4150 6500
 Wire Notes Line
@@ -631,4 +572,43 @@ Wire Notes Line
 	4150 7450 3150 7450
 Wire Notes Line
 	3150 7450 3150 6500
+Wire Wire Line
+	8550 5100 8450 5100
+Wire Wire Line
+	4600 2550 3450 2550
+$Comp
+L +8V #PWR012
+U 1 1 5472EB2B
+P 3450 1650
+F 0 "#PWR012" H 3450 1620 20  0001 C CNN
+F 1 "+8V" H 3450 1760 30  0000 C CNN
+F 2 "" H 3450 1650 60  0000 C CNN
+F 3 "" H 3450 1650 60  0000 C CNN
+	1    3450 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 1650 3450 1800
+Connection ~ 3450 1800
+Connection ~ 3450 1900
+Wire Wire Line
+	3450 2050 3450 1900
+Text HLabel 10300 4800 2    40   UnSpc ~ 0
+SirenaON
+Text HLabel 10300 5300 2    40   Input ~ 0
++Batt
+Text HLabel 10300 5200 2    40   UnSpc ~ 0
+-Batt
+Text HLabel 10300 5100 2    40   UnSpc ~ 0
+GND
+Text HLabel 10300 5000 2    40   Output ~ 0
++12Vcc - OUT
+Text HLabel 10300 4900 2    40   UnSpc ~ 0
+12V-Switch
+Text HLabel 9950 5850 2    40   Input ~ 0
++12Vcc - IN
+Text HLabel 3450 2450 0    40   UnSpc ~ 0
+-Lamp_IS_ON
+Text HLabel 3450 2550 0    40   Output ~ 0
++Lamp_IS_ON
 $EndSCHEMATC
