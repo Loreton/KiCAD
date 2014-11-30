@@ -1,11 +1,6 @@
-update=29/11/2014 20:43:29
+update=30/11/2014 08:39:19
 version=1
 last_client=pcbnew
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [general]
 version=1
 [eeschema]
@@ -54,14 +49,19 @@ LibName34=opto
 LibName35=atmel
 LibName36=contrib
 LibName37=valves
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=Timer4Autoradio-PIC12F635.net
-UseCmpFile=0
+UseCmpFile=1
 PadDrill=0.812800000000
 PadDrillOvalY=0.812800000000
 PadSizeH=2.032000000000
-PadSizeV=2.032000000000
+PadSizeV=3.048000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -81,14 +81,8 @@ LibName3=connect
 LibName4=discret
 LibName5=pin_array
 LibName6=divers
-LibName7=smd_capacitors
-LibName8=smd_resistors
-LibName9=smd_crystal&oscillator
-LibName10=smd_dil
-LibName11=smd_transistors
-LibName12=libcms
-LibName13=display
-LibName14=led
-LibName15=dip_sockets
-LibName16=pga_sockets
-LibName17=valves
+LibName7=libcms
+LibName8=display
+LibName9=led
+LibName10=dip_sockets
+LibName11=pga_sockets

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 29/11/2014 20:41:23
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 30/11/2014 08:26:42
 
 BeginCmp
 TimeStamp = /5479D91E;
@@ -11,140 +11,140 @@ BeginCmp
 TimeStamp = /5479D8B1;
 Reference = C2;
 ValeurCmp = CAPPOL;
-IdModule  = ;
+IdModule  = CAPE_100_V5;
 EndCmp
 
 BeginCmp
 TimeStamp = /5479D8A2;
 Reference = C3;
 ValeurCmp = C;
-IdModule  = ;
+IdModule  = Cap_100;
 EndCmp
 
 BeginCmp
 TimeStamp = /5479CD9B;
 Reference = D1;
 ValeurCmp = 1N4001;
-IdModule  = ;
+IdModule  = Diode_500;
 EndCmp
 
 BeginCmp
 TimeStamp = /5479CDC8;
 Reference = D2;
 ValeurCmp = 1N4148;
-IdModule  = ;
+IdModule  = Diode_500;
 EndCmp
 
 BeginCmp
 TimeStamp = /5479C883;
 Reference = D4;
 ValeurCmp = DIODE;
-IdModule  = ;
+IdModule  = Diode_500;
 EndCmp
 
 BeginCmp
 TimeStamp = /5479CADB;
 Reference = DL1;
 ValeurCmp = LED;
-IdModule  = ;
+IdModule  = LED-5MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /5479CA5E;
 Reference = DL2;
 ValeurCmp = LED;
-IdModule  = ;
+IdModule  = LED-5MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /54797C66;
 Reference = DL3;
 ValeurCmp = LED;
-IdModule  = ;
+IdModule  = LED-5MM;
 EndCmp
 
 BeginCmp
 TimeStamp = /5479C54C;
 Reference = IC1;
 ValeurCmp = 4N35;
-IdModule  = ;
+IdModule  = DIP-6_300;
 EndCmp
 
 BeginCmp
 TimeStamp = /5396AB45;
 Reference = K1;
 ValeurCmp = 12Vcc;
-IdModule  = ;
+IdModule  = SIP-03;
 EndCmp
 
 BeginCmp
 TimeStamp = /5479C87D;
 Reference = K3;
 ValeurCmp = RELAY_1RT;
-IdModule  = ;
+IdModule  = DIP-14_300;
 EndCmp
 
 BeginCmp
 TimeStamp = /53994C08;
 Reference = P1;
 ValeurCmp = CONN_06;
-IdModule  = ;
+IdModule  = SIP-06;
 EndCmp
 
 BeginCmp
 TimeStamp = /5479D383;
 Reference = R1;
 ValeurCmp = 27K;
-IdModule  = ;
+IdModule  = Res-500;
 EndCmp
 
 BeginCmp
 TimeStamp = /5479D629;
 Reference = R2;
 ValeurCmp = 100K;
-IdModule  = ;
+IdModule  = Res-500;
 EndCmp
 
 BeginCmp
 TimeStamp = /5399FA94;
 Reference = R3;
 ValeurCmp = 25K;
-IdModule  = ;
+IdModule  = Res-500;
 EndCmp
 
 BeginCmp
 TimeStamp = /545FA190;
 Reference = R4;
 ValeurCmp = 470;
-IdModule  = ;
+IdModule  = Res-500;
 EndCmp
 
 BeginCmp
 TimeStamp = /54797C73;
 Reference = R5;
 ValeurCmp = 470K;
-IdModule  = ;
+IdModule  = Res-500;
 EndCmp
 
 BeginCmp
 TimeStamp = /53666E7F;
 Reference = SW1;
 ValeurCmp = Power;
-IdModule  = ;
+IdModule  = SIP-03;
 EndCmp
 
 BeginCmp
 TimeStamp = /5479CD70;
 Reference = U1;
 ValeurCmp = 78L05;
-IdModule  = LM78XX-TO92;
+IdModule  = LM78XX-TO92-ELL;
 EndCmp
 
 BeginCmp
 TimeStamp = /53664521;
 Reference = U2;
 ValeurCmp = PIC12F635;
-IdModule  = Ln_DIP-8_300;
+IdModule  = DIP-8_300;
 EndCmp
 
 EndListe

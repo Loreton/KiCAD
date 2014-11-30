@@ -1,12 +1,11 @@
 (export (version D)
   (design
     (source L:/Loreto/GIT-REPO/CAD/KiCAD/Projects/Timer4Autoradio/Timer4Autoradio-PIC12F635.sch)
-    (date "29/11/2014 20:39:54")
+    (date "30/11/2014 08:37:56")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref U2)
       (value PIC12F635)
-      (footprint Ln_DIP-8_300)
       (libsource (lib LnMicroController) (part PIC12F635_2))
       (sheetpath (names /) (tstamps /))
       (tstamp 53664521))
@@ -111,6 +110,21 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5479D91E)))
   (libparts
+    (libpart (lib LnRegulators) (part 7805)
+      (footprints
+        (fp LM78*)
+        (fp LM79*)
+        (fp 78*)
+        (fp 79*))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) 7805)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num GND) (name GND) (type input))
+        (pin (num VI) (name VI) (type input))
+        (pin (num VO) (name VO) (type power_out))))
     (libpart (lib Ln_R-C-L) (part C)
       (description "Condensateur non polarise")
       (footprints
@@ -126,8 +140,8 @@
     (libpart (lib Ln_R-C-L) (part CapPol)
       (description "Condensatore elettrolitico")
       (footprints
-        (fp Cap*)
-        (fp PolCap*))
+        (fp CAP*)
+        (fp CAPPOL*))
       (fields
         (field (name Reference) C)
         (field (name Value) CapPol)
@@ -163,7 +177,8 @@
     (libpart (lib LnConnectors) (part CONN_06)
       (description "ymbole general de connecteur")
       (footprints
-        (fp SIP*))
+        (fp SIP*)
+        (fp SIL*))
       (fields
         (field (name Reference) P)
         (field (name Value) CONN_06)
@@ -179,7 +194,8 @@
     (libpart (lib LnDevice) (part PulsanteNC)
       (description "Push Button")
       (footprints
-        (fp SIP*))
+        (fp SIP*)
+        (fp SIL*))
       (fields
         (field (name Reference) SW)
         (field (name Value) PulsanteNC)
@@ -258,25 +274,12 @@
         (pin (num 5) (name GP2/INT) (type input))
         (pin (num 6) (name GP1/IPCSCLK) (type input))
         (pin (num 7) (name GP0/IPCSDAT) (type input))
-        (pin (num 8) (name VSS) (type power_in))))
-    (libpart (lib LnRegulators) (part 7805)
-      (footprints
-        (fp LM78*)
-        (fp LM79*)
-        (fp 78*)
-        (fp 79*))
-      (fields
-        (field (name Reference) U)
-        (field (name Value) 7805)
-        (field (name Footprint) ~)
-        (field (name Datasheet) ~))
-      (pins
-        (pin (num GND) (name GND) (type input))
-        (pin (num VI) (name VI) (type input))
-        (pin (num VO) (name VO) (type power_out)))))
+        (pin (num 8) (name VSS) (type power_in)))))
   (libraries
     (library (logical Ln_R-C-L)
       (uri L:\Loreto\GIT-REPO\CAD\KiCAD\LnLibrary\Ln_R-C-L.lib))
+    (library (logical LnRegulators)
+      (uri L:\Loreto\GIT-REPO\CAD\KiCAD\LnLibrary\LnRegulators.lib))
     (library (logical LnDevice)
       (uri L:\Loreto\GIT-REPO\CAD\KiCAD\LnLibrary\LnDevice.lib))
     (library (logical LnConnectors)
@@ -284,9 +287,7 @@
     (library (logical LnDiodiTransistors)
       (uri L:\Loreto\GIT-REPO\CAD\KiCAD\LnLibrary\LnDiodiTransistors.lib))
     (library (logical LnMicroController)
-      (uri L:\Loreto\GIT-REPO\CAD\KiCAD\LnLibrary\LnMicroController.lib))
-    (library (logical LnRegulators)
-      (uri L:\Loreto\GIT-REPO\CAD\KiCAD\LnLibrary\LnRegulators.lib)))
+      (uri L:\Loreto\GIT-REPO\CAD\KiCAD\LnLibrary\LnMicroController.lib)))
   (nets
     (net (code 1) (name "")
       (node (ref DL2) (pin 2))

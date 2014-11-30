@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 29/11/2014 16:50:09
+EESchema-LIBRARY Version 2.3  Date: 29/11/2014 18:30:03
 #encoding utf-8
 #
 # C
@@ -10,9 +10,7 @@ F2 "~" 38 -150 30 H V C CNN
 F3 "~" 0 0 60 H V C CNN
 ALIAS CAP
 $FPLIST
- SM*
- C?
- C1-1
+ Cap*
 $ENDFPLIST
 DRAW
 P 2 0 1 20  -80 -30  80 -30 N
@@ -30,8 +28,8 @@ F1 "CapPol" 50 -100 50 H V L CNN
 F2 "~" 0 0 60 H V C CNN
 F3 "~" 0 0 60 H V C CNN
 $FPLIST
- CP*
- SM*
+ Cap*
+ PolCap*
 $ENDFPLIST
 DRAW
 T 0 -50 75 80 0 0 0 +  Normal 0 C C
@@ -50,11 +48,7 @@ F1 "Res-Box" 7 1 40 V V C CNN
 F2 "~" -70 0 30 V V C CNN
 F3 "~" 0 0 30 H V C CNN
 $FPLIST
- R?
- SM0603
- SM0805
- R?-*
- SM1206
+ Res*
 $ENDFPLIST
 DRAW
 S -40 150 40 -150 0 1 12 N
@@ -70,6 +64,9 @@ F0 "R" 75 100 40 H V C CNN
 F1 "RESISTOR" 250 0 40 H V C CNN
 F2 "~" 0 0 60 H V C CNN
 F3 "~" 0 0 60 H V C CNN
+$FPLIST
+ Res*
+$ENDFPLIST
 DRAW
 P 8 0 1 0  0 85  50 60  -50 35  50 10  -50 -15  50 -40  -50 -65  0 -90 N
 X ~ 1 0 150 65 D 50 50 1 1 P
