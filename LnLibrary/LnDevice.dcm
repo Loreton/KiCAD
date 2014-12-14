@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 30/11/2014 08:13:52
+EESchema-DOCLIB  Version 2.0  Date: 13/12/2014 22:06:48
 #
 $CMP ALIMENTATORE
 D LN - Lampadina
@@ -50,6 +50,10 @@ $ENDCMP
 $CMP SPST
 D Interrupteur simple
 K switch
+$ENDCMP
+#
+$CMP TX-RX_4_CH
+D LN - Switch
 $ENDCMP
 #
 #End Doc Library

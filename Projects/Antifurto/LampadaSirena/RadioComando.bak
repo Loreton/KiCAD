@@ -42,7 +42,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title ""
-Date "25 nov 2014"
+Date "13 dec 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -55,10 +55,10 @@ Text GLabel 6500 5250 2    40   Input ~ 0
 Text GLabel 6500 5350 2    40   Input ~ 0
 GND
 $Comp
-L DUAL_SWITCH SW202
+L DUAL_SWITCH SW4
 U 1 1 546D03E6
 P 6400 5050
-F 0 "SW202" H 6700 5050 50  0000 C CNN
+F 0 "SW4" H 6700 5050 50  0000 C CNN
 F 1 "DUAL_SWITCH" H 6250 4900 50  0001 C CNN
 F 2 "~" H 6400 5050 60  0000 C CNN
 F 3 "~" H 6400 5050 60  0000 C CNN
@@ -70,10 +70,10 @@ RadioComando con 4 relay di output.\nIl primo relay (A sul telecomando) è usato
 Text Notes 1300 6100 0    40   ~ 0
 A riposo se il sensore della lampada rileva un movimento \nLo Switch serve per accendere la lampada via RadioComando.\nAcccendendo la lampada manualmente dobbiamo evitare \ndi far partire la sirena.\nQuesta è la ragione del circuito un pò più complesso.\n\nper fare accendere la lampada manualmente. \nLo switch serve anche a disabilitare l'output di LampOUT+\nche potrebbe innescare l'antifurto e quindi la sirena. \nInfatti elimina il GND dall'emettitore del OC1 .
 $Comp
-L LTV-817 IC201
+L LTV-817 IC1
 U 1 1 5472D8B0
 P 1750 4050
-F 0 "IC201" H 1536 4229 40  0000 C CNN
+F 0 "IC1" H 1536 4229 40  0000 C CNN
 F 1 "LTV-817" H 1855 3865 40  0000 C CNN
 F 2 "DIP4" H 1580 3870 29  0000 C CNN
 F 3 "" H 1750 4050 60  0000 C CNN
@@ -81,10 +81,10 @@ F 3 "" H 1750 4050 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L LTV-817 IC202
+L LTV-817 IC2
 U 1 1 5472D8B6
 P 1750 5500
-F 0 "IC202" H 1536 5679 40  0000 C CNN
+F 0 "IC2" H 1536 5679 40  0000 C CNN
 F 1 "LTV-817" H 1855 5315 40  0000 C CNN
 F 2 "DIP4" H 1580 5320 29  0000 C CNN
 F 3 "" H 1750 5500 60  0000 C CNN
@@ -92,10 +92,10 @@ F 3 "" H 1750 5500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R202
+L R R4
 U 1 1 5472D8BC
 P 2500 4950
-F 0 "R202" H 2550 4750 40  0000 C CNN
+F 0 "R4" H 2550 4750 40  0000 C CNN
 F 1 "2K7" V 2507 4951 40  0000 C CNN
 F 2 "~" V 2430 4950 30  0000 C CNN
 F 3 "~" H 2500 4950 30  0000 C CNN
@@ -103,10 +103,10 @@ F 3 "~" H 2500 4950 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DUAL_SWITCH SW201
+L DUAL_SWITCH SW2
 U 1 1 5472D8C2
 P 2500 4150
-F 0 "SW201" H 2550 4050 50  0000 C CNN
+F 0 "SW2" H 2550 4050 50  0000 C CNN
 F 1 "DUAL_SWITCH" H 2350 4000 50  0001 C CNN
 F 2 "~" H 2500 4150 60  0000 C CNN
 F 3 "~" H 2500 4150 60  0000 C CNN
@@ -125,10 +125,10 @@ F 3 "" H 2500 4600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R201
+L R R3
 U 1 1 5472D8D3
 P 2450 3400
-F 0 "R201" H 2500 3200 40  0000 C CNN
+F 0 "R3" H 2500 3200 40  0000 C CNN
 F 1 "1K" V 2457 3401 40  0000 C CNN
 F 2 "~" V 2380 3400 30  0000 C CNN
 F 3 "~" H 2450 3400 30  0000 C CNN
@@ -181,10 +181,10 @@ F 3 "" H 2650 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DUAL_SWITCH SW?
+L DUAL_SWITCH SW3
 U 1 1 5472EECA
 P 6400 4750
-F 0 "SW?" H 6650 4750 50  0000 C CNN
+F 0 "SW3" H 6650 4750 50  0000 C CNN
 F 1 "DUAL_SWITCH" H 6250 4600 50  0001 C CNN
 F 2 "~" H 6400 4750 60  0000 C CNN
 F 3 "~" H 6400 4750 60  0000 C CNN
@@ -200,9 +200,7 @@ Wire Notes Line
 Wire Notes Line
 	8950 4500 6150 4500
 Wire Wire Line
-	2500 5200 2500 5250
-Wire Wire Line
-	2500 5250 2500 5400
+	2500 5200 2500 5400
 Wire Wire Line
 	2500 4600 2500 4700
 Wire Wire Line
@@ -226,11 +224,7 @@ Wire Wire Line
 	2650 4200 2650 4350
 Connection ~ 2750 5400
 Wire Wire Line
-	2100 5400 2500 5400
-Wire Wire Line
-	2500 5400 2750 5400
-Wire Wire Line
-	2750 5400 2950 5400
+	2100 5400 2950 5400
 Connection ~ 2500 5400
 Text HLabel 5750 5250 0    40   Input ~ 0
 +12Vcc
