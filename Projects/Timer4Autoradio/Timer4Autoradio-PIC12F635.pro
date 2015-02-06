@@ -1,4 +1,4 @@
-update=03/12/2014 08:54:00
+update=29/12/2014 15:27:33
 version=1
 last_client=eeschema
 [general]
@@ -12,9 +12,9 @@ EquName1=devcms
 version=1
 LastNetListRead=Timer4Autoradio-PIC12F635.net
 UseCmpFile=1
-PadDrill=0.812800000000
-PadDrillOvalY=0.812800000000
-PadSizeH=2.032000000000
+PadDrill=1.016000000000
+PadDrillOvalY=1.016000000000
+PadSizeH=1.905000000000
 PadSizeV=3.048000000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
@@ -26,9 +26,9 @@ SolderMaskClearance=0.000000000000
 SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
-ModuleOutlineThickness=0.381000000000
+ModuleOutlineThickness=0.127000000000
 [pcbnew/libraries]
-LibDir=L:/Loreto/GIT-REPO/CAD/KiCAD/LnLibraryModules
+LibDir=../../LnLibraryModules
 LibName1=LnKicadModules
 LibName2=sockets
 LibName3=connect
@@ -42,7 +42,7 @@ LibName10=dip_sockets
 LibName11=pga_sockets
 [eeschema]
 version=1
-LibDir=L:/Loreto/GIT-REPO/CAD/KiCAD/LnLibrary
+LibDir=../../LnLibrary
 NetFmtName=
 RptD_X=0
 RptD_Y=100

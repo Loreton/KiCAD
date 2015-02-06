@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 12/12/2014 18:56:23
+EESchema-DOCLIB  Version 2.0  Date: 28/12/2014 18:56:17
 #
 $CMP CONN_01
 D 1 pin
@@ -21,7 +21,7 @@ K CONN
 $ENDCMP
 #
 $CMP CONN_05
-D Symbole general de connecteur
+D ymbole general de connecteur
 K CONN
 $ENDCMP
 #

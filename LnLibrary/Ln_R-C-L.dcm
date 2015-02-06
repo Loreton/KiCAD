@@ -1,16 +1,32 @@
-EESchema-DOCLIB  Version 2.0  Date: 30/11/2014 08:16:07
+EESchema-DOCLIB  Version 2.0  Date: 06/02/2015 07:59:15
 #
 $CMP C
-D Condensateur non polarise
+D LN - Capacitor
+$ENDCMP
+#
+$CMP CAP
+D LN - Capacitor
 $ENDCMP
 #
 $CMP CAPPOL
-D Condensatore elettrolitico
+D LN - Condensatore elettrolitico
+$ENDCMP
+#
+$CMP PhotoResistor
+D Ln - PhotoResistor
 $ENDCMP
 #
 $CMP RES-BOX
-D Resistance
+D Ln Resistance
 K R DEV
+$ENDCMP
+#
+$CMP RESISTOR
+D Ln - Resistor
+$ENDCMP
+#
+$CMP TRIMMER
+D Ln - Trimmer - Potenziometro
 $ENDCMP
 #
 #End Doc Library

@@ -1,4 +1,4 @@
-update=25/11/2014 08:39:51
+update=07/01/2015 13:16:57
 version=1
 last_client=eeschema
 [cvpcb]
@@ -47,7 +47,7 @@ LibName16=valves
 version=1
 [eeschema]
 version=1
-LibDir=L:/Loreto/GIT-REPO/CAD/KiCAD/LnLibrary
+LibDir=E:/LnDisk/Loreto/GIT-REPO/CAD/KiCAD/LnLibrary;E:/LnDisk/Loreto/GIT-REPO/CAD/KiCAD/LnLibraryModules
 NetFmtName=
 RptD_X=0
 RptD_Y=100

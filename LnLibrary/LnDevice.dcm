@@ -1,7 +1,7 @@
-EESchema-DOCLIB  Version 2.0  Date: 13/12/2014 22:06:48
+EESchema-DOCLIB  Version 2.0  Date: 06/02/2015 08:04:55
 #
 $CMP ALIMENTATORE
-D LN - Lampadina
+D LN - Alimentatore
 K Switch
 $ENDCMP
 #
@@ -17,6 +17,16 @@ $ENDCMP
 #
 $CMP DUAL_SWITCH
 D LN - Switch
+$ENDCMP
+#
+$CMP JUMPER
+D by: L.N.
+$ENDCMP
+#
+$CMP JUMPER3
+D Push Button
+K Switch
+F LnJumper3
 $ENDCMP
 #
 $CMP LAMP
@@ -42,6 +52,14 @@ $CMP RELAY_2RT
 D LN - Relé a due scambi
 $ENDCMP
 #
+$CMP RELAY_AUTORADIO
+D LN - Relé ad uno scambio
+$ENDCMP
+#
+$CMP SINGLE_SWITCH
+D LN - Switch
+$ENDCMP
+#
 $CMP SIRENA
 D LN - Lampadina
 K Switch
@@ -50,6 +68,10 @@ $ENDCMP
 $CMP SPST
 D Interrupteur simple
 K switch
+$ENDCMP
+#
+$CMP SWITCH
+D LN - Switch
 $ENDCMP
 #
 $CMP TX-RX_4_CH
