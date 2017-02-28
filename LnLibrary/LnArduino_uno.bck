@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0  Date: 22/07/2015 17:12:43
+#
+$CMP 433MHz_RX
+D Ln - RS485 Adapter
+$ENDCMP
+#
+$CMP 433MHz_TX
+D Ln - RS485 Adapter
+$ENDCMP
+#
+$CMP ARDUINO__RS485
+D Ln - RS485 Adapter
+$ENDCMP
+#
+$CMP ARDUINO_RS485
+D Ln - RS485 Adapter
+$ENDCMP
+#
+$CMP ARDUINO_WIFI_RX
+D Ln - RS485 Adapter
+$ENDCMP
+#
+$CMP ARDUINO_WIFI_TX
+D Ln - RS485 Adapter
+$ENDCMP
+#
+#End Doc Library

@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 28/12/2014 18:56:17
+EESchema-DOCLIB  Version 2.0  Date: 16/02/2015 08:30:13
 #
 $CMP CONN_01
 D 1 pin
@@ -121,6 +121,11 @@ K CONN
 $ENDCMP
 #
 $CMP MAMMUTH_12A
+D ymbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP SIP_04
 D ymbole general de connecteur
 K CONN
 $ENDCMP
